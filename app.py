@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('D:\startup.dashboard\startup1_cleaned.csv')
+df = pd.read_csv('startup1_cleaned.csv')
 df['date'] = pd.to_datetime(df['date'])
 
 def load_overall_analysis():
